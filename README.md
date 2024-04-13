@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@esm/index.mjs';
+import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@v0.1.0-esm/index.mjs';
 ```
 
 #### noneOwnBy( object, predicate\[, thisArg ] )
@@ -131,7 +131,7 @@ var bool = noneOwnBy( obj, isUnderage );
 <body>
 <script type="module">
 
-import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@esm/index.mjs';
+import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@v0.1.0-esm/index.mjs';
 
 function isUnderage( age ) {
     return age < 18;
