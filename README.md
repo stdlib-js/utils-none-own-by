@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-none-own-by/tags). For example,
+
+```javascript
 import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@v0.1.0-esm/index.mjs';
 ```
 
@@ -131,7 +136,7 @@ var bool = noneOwnBy( obj, isUnderage );
 <body>
 <script type="module">
 
-import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@v0.1.0-esm/index.mjs';
+import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@esm/index.mjs';
 
 function isUnderage( age ) {
     return age < 18;
