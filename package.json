@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-none-own-by",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tests whether every own property of an object fails a test implemented by a predicate function.",
   "license": "Apache-2.0",
   "author": {
