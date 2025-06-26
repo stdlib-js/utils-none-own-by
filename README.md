@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-none-own-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@esm/index.mjs';
+var noneOwnBy = require( '@stdlib/utils-none-own-by' );
 ```
 
 #### noneOwnBy( object, predicate\[, thisArg ] )
@@ -125,13 +143,8 @@ var bool = noneOwnBy( obj, isUnderage );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import noneOwnBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-own-by@esm/index.mjs';
+```javascript
+var noneOwnBy = require( '@stdlib/utils-none-own-by' );
 
 function isUnderage( age ) {
     return age < 18;
@@ -145,10 +158,6 @@ var obj = {
 
 var bool = noneOwnBy( obj, isUnderage );
 // returns true
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -172,7 +181,7 @@ var bool = noneOwnBy( obj, isUnderage );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/utils-any-own-by`][@stdlib/utils/any-own-by]</span><span class="delimiter">: </span><span class="description">test whether whether any 'own' property of a provided object satisfies a predicate function.</span>
--   <span class="package-name">[`@stdlib/utils-every-own-by`][@stdlib/utils/every-own-by]</span><span class="delimiter">: </span><span class="description">test whether all own properties of an object pass a test implemented by a predicate function.</span>
+-   <span class="package-name">[`@stdlib/object-every-own-by`][@stdlib/object/every-own-by]</span><span class="delimiter">: </span><span class="description">test whether all own properties of an object pass a test implemented by a predicate function.</span>
 -   <span class="package-name">[`@stdlib/utils-for-own`][@stdlib/utils/for-own]</span><span class="delimiter">: </span><span class="description">invoke a function for each own enumerable property of an object.</span>
 -   <span class="package-name">[`@stdlib/utils-none-by`][@stdlib/utils/none-by]</span><span class="delimiter">: </span><span class="description">test whether all elements in a collection fail a test implemented by a predicate function.</span>
 -   <span class="package-name">[`@stdlib/utils-some-own-by`][@stdlib/utils/some-own-by]</span><span class="delimiter">: </span><span class="description">test whether some `own` properties of a provided object satisfy a predicate function for at least `n` properties.</span>
@@ -190,7 +199,7 @@ var bool = noneOwnBy( obj, isUnderage );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -255,15 +264,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/any-own-by]: https://github.com/stdlib-js/utils-any-own-by/tree/esm
+[@stdlib/utils/any-own-by]: https://github.com/stdlib-js/utils-any-own-by
 
-[@stdlib/utils/every-own-by]: https://github.com/stdlib-js/utils-every-own-by/tree/esm
+[@stdlib/object/every-own-by]: https://github.com/stdlib-js/object-every-own-by
 
-[@stdlib/utils/for-own]: https://github.com/stdlib-js/utils-for-own/tree/esm
+[@stdlib/utils/for-own]: https://github.com/stdlib-js/utils-for-own
 
-[@stdlib/utils/none-by]: https://github.com/stdlib-js/utils-none-by/tree/esm
+[@stdlib/utils/none-by]: https://github.com/stdlib-js/utils-none-by
 
-[@stdlib/utils/some-own-by]: https://github.com/stdlib-js/utils-some-own-by/tree/esm
+[@stdlib/utils/some-own-by]: https://github.com/stdlib-js/utils-some-own-by
 
 <!-- </related-links> -->
 
