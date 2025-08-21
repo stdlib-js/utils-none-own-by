@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-14)
+## Unreleased (2025-08-21)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#7914](https://github.com/stdlib-js/stdlib/issues/7914)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,9 @@
 
 <details>
 
+-   [`d2b9b0c`](https://github.com/stdlib-js/stdlib/commit/d2b9b0c10f35487713f6925c360b504a1f9e0a14) - **chore:** address commit comments for commit `1acd7fc` [(#7917)](https://github.com/stdlib-js/stdlib/pull/7917) _(by Srinivas Batthula, Philipp Burckhardt)_
+-   [`1acd7fc`](https://github.com/stdlib-js/stdlib/commit/1acd7fc7114fcbef1b80ab506f6f47d3532d6ea8) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`ed9a036`](https://github.com/stdlib-js/stdlib/commit/ed9a036b50dd520e8090f047928e6e45611d0b46) - **docs:** fix typo _(by Philipp Burckhardt)_
 -   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`35b2819`](https://github.com/stdlib-js/stdlib/commit/35b281999025fcd8236f7ca446cf44572cbb00f5) - **refactor:** update paths _(by Neeraj Pathak)_
@@ -29,10 +44,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Srinivas Batthula
 
 </section>
 
