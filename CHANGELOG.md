@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-21)
+## Unreleased (2025-11-10)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`7849e6f`](https://github.com/stdlib-js/stdlib/commit/7849e6ffba5b1734a5314c5ded28602dd75e0f3c) - **style:** remove semicolons after function declarations _(by Philipp Burckhardt)_
 -   [`d2b9b0c`](https://github.com/stdlib-js/stdlib/commit/d2b9b0c10f35487713f6925c360b504a1f9e0a14) - **chore:** address commit comments for commit `1acd7fc` [(#7917)](https://github.com/stdlib-js/stdlib/pull/7917) _(by Srinivas Batthula, Philipp Burckhardt)_
 -   [`1acd7fc`](https://github.com/stdlib-js/stdlib/commit/1acd7fc7114fcbef1b80ab506f6f47d3532d6ea8) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
